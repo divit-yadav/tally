@@ -11,13 +11,10 @@ const Balance = () => {
 
 
   return (
-    <>
-    <h4>
-        Your balance
-    </h4>
-    <h1>${total}</h1>
-    </>
-  )
+    <div className="balancebox">
+      <h1>${total}</h1>
+    </div>
+  );  
 }
 export default Balance;
 

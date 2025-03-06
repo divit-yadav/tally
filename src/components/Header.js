@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h2>
-        Tally
-    </h2>
+    <div className= "headerbox">
+    <h2>tally</h2>
+    </div>
   )
 }
 

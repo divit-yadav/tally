@@ -26,7 +26,7 @@ export const IncomeExpenses = () => {
          </div>
          <div className='exp-container'>
              <h4>Expense</h4>
-             <p class="money-minus">{expense}</p>
+             <p className="money-minus">{expense}</p>
          </div>
     </div>
   )
