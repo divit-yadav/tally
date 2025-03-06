@@ -23,12 +23,15 @@ body {
 }
 
 .container {
-  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 32px;
   width: 400px;
   gap: 24px;
 }
 
 h1 {
+  font-size: 18px;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -40,8 +43,9 @@ h2 {
 }
 
 h3 {
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
 
 h4 {
@@ -55,6 +59,8 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: fit-content;
+  padding: 20px;
 }
 
 .balancebox {
@@ -77,6 +83,7 @@ h4 {
   flex-direction: column;
   text-align: center;
   border-radius: 8px;
+  gap: 10px;
   padding: 20px;
   align-items: flex-start;
   flex: 1; /* Distributes equal width to each div */
@@ -84,11 +91,11 @@ h4 {
 }
 
 .inc-container {
-  background-color: #388273;
+  background-color: #328979;
 }
 
 .exp-container {
-  background-color: #bf6868;
+  background-color: #9D8386;
 }
 
 .money {
@@ -98,13 +105,29 @@ h4 {
 }
 
 .money-plus {
-  color: #ffffff; /* Green */
+  color: #ffffff;
+  font-size: 20px;
   margin: 0;
 }
 
 .money-minus {
-  color: #ffffff; /* Red */
+  color: #ffffff; 
+  font-size: 20px;
   margin: 0;
+}
+
+.transactionsbox {
+  display: flex;
+  height: fit-content;
+  gap: 0px
+;
+}
+
+.addtransactionsbox {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 8px;
 }
 
 
@@ -146,7 +169,7 @@ input[type='number'] {
 .list {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 40px;
+  margin: 0;
 }
 
 .list li {
