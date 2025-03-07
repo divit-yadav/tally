@@ -20,7 +20,7 @@ export const AddTransaction = () => {
     }
   return (
     <div className='addtransactionsbox'>
-         <h3>Add transaction</h3>
+      <h3>Add transaction</h3>
       <form onSubmit= {onSubmit}>
         <div className="form-control">
           <input type="text" value= {text} onChange= {(e) =>setText(e.target.value)}
