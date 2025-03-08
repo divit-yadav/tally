@@ -1,4 +1,7 @@
 {
+
+  "homepage": "https://divit-yadav.github.io/tally",
+
   "name": "tally",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +46,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://divit-yadav.github.io/tally"
+  }
 }
