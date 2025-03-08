@@ -2,9 +2,8 @@
 
 
 html {
-  background-color: rgb(255, 255, 255); /* Root background */
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   min-height: 100vh; /* Full height to center content */
   width: 100%; /* Ensure #root fills the body */
@@ -14,7 +13,7 @@ html {
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling */
   width: 100vw;
-  height: fit-content;
+  height: fit-content
 
 }
 
@@ -42,10 +41,11 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 16px;
-  padding: 24px; /* Some padding for spacing */
+  padding: 16px 24px 32px;  /* Some padding for spacing */
   border-radius: 6px;
   width: 100%;
   max-width: 430px;
+  height: 100%;
 }
 
 
@@ -55,6 +55,13 @@ body {
   width: 100%;
   gap: 24px;
   justify-content: space-between;
+}
+
+.containerb {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
 }
 
 .red-letters {
@@ -74,7 +81,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
   letter-spacing: -1px;
@@ -189,8 +196,9 @@ h4 {
 .transactionsbox {
   display: flex;
   flex-direction: column;
-  height: fit-content;
-  gap: 0px
+  height: 100%;
+  overflow: hidden;
+  gap: 24px
 ;
 }
 
@@ -198,7 +206,7 @@ h4 {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  gap: 8px;
+  gap: 16px;
 }
 
 
@@ -238,6 +246,8 @@ input[type='number'] {
 }
 
 .list {
+  display: flex ;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -250,7 +260,7 @@ input[type='number'] {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 10px;
+  padding: 0px 8px 0px 0px;
 }
 
 .list li.plus {
@@ -281,8 +291,15 @@ input[type='number'] {
   opacity: 1;
 }
 
-.formbox {
+.formbox{
   display: flex;
   flex-direction: column; /* Stacks inputs and button */
-  gap: 16px; /* Provides spacing */
+  gap: 20px; /* Provides spacing */
+  
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column; 
+  gap: 8px; /* Provides spacing */
 }
