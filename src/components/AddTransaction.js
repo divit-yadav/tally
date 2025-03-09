@@ -9,6 +9,8 @@ export const AddTransaction = () => {
 
     const onSubmit = e => {
       e.preventDefault()
+      setAmount("");
+      setText("");
 
       const newTransaction = {
         id: Math.floor(Math.random() * 100000000),
@@ -33,7 +35,7 @@ export const AddTransaction = () => {
   </div>
 </div>
 
-        <button className="btn">Add transaction</button>
+        <button className="btn" disabled = {!text}>Add transaction</button>
       </form>
     </div>
   )
