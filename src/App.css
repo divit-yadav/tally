@@ -293,7 +293,7 @@ input[type='number'] {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 8px 12px 8px 8px;
+  padding: 8px 12px 8px 0px;
   transition: padding-right 0.3s ease; /* Smooth shrinking effect */
 }
 
@@ -355,3 +355,14 @@ input[type='number'] {
   flex-direction: column; 
   gap: 8px; /* Provides spacing */
 }
+
+input {
+  font-family: "Apercu Pro", sans-serif; /* Font for typed text */
+  font-size: 16px;
+  font-weight: regular;
+  font-style: normal;
+  color: #333;
+}
+
+
+
