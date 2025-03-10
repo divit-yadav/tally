@@ -262,7 +262,8 @@ input[type='number'] {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 12px 12px 12px 8px;
+  padding: 8px 12px 8px 8px;
+  transition: padding-right 0.3s ease; /* Smooth shrinking effect */
 }
 
 .list li::after {
@@ -285,22 +286,31 @@ input[type='number'] {
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #b9616b;
   border: 0;
+  border-radius: 50px;
   color: #fff;
   font-size: 16px;
   line-height: 20px;
   padding: 5px 10px;
   position: absolute;
-  right: 10px;  /* Position on the right side */
+  right: 0px;  /* Position on the right side */
   top: 50%;
   transform: translateY(-50%);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: right 0.3s ease-out, opacity 0.2s ease-in-out, transform 0.3s ease-out;
+}
+
+.list li:hover {
+  padding-right: 48px; /* Shrink the container to the left to make space */
 }
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+.list li:hover::after {
+  right: 36px;
 }
 
 .formbox{
