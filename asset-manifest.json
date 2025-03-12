@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tally/static/css/main.5b4c73cf.css",
+    "main.js": "/tally/static/js/main.3674a063.js",
+    "static/js/453.643e1ad9.chunk.js": "/tally/static/js/453.643e1ad9.chunk.js",
+    "static/media/bg-gradient.png": "/tally/static/media/bg-gradient.50299bfa14242ba6093c.png",
+    "static/media/ApercuPro-Italic.woff": "/tally/static/media/ApercuPro-Italic.7f16b3700a3496955ace.woff",
+    "static/media/ApercuPro-Medium.woff": "/tally/static/media/ApercuPro-Medium.382d6bc837c0e917abd3.woff",
+    "static/media/ApercuPro-Regular.woff": "/tally/static/media/ApercuPro-Regular.08c55197e55ee74518bf.woff",
+    "static/media/ApercuPro-Bold.woff": "/tally/static/media/ApercuPro-Bold.887ff605f52a0672bf66.woff",
+    "static/media/ApercuPro-Italic.woff2": "/tally/static/media/ApercuPro-Italic.797dd5d0d7227d8a702d.woff2",
+    "static/media/ApercuPro-Medium.woff2": "/tally/static/media/ApercuPro-Medium.648bcbb1508d911c0542.woff2",
+    "static/media/ApercuPro-Regular.woff2": "/tally/static/media/ApercuPro-Regular.0512f40d333255f6972a.woff2",
+    "static/media/ApercuPro-Bold.woff2": "/tally/static/media/ApercuPro-Bold.be9eb4ced03b704cd1da.woff2",
+    "static/media/progressbar.png": "/tally/static/media/progressbar.4c63d4cf1a0dcd6cbf0e.png",
+    "static/media/bugreporticon.svg": "/tally/static/media/bugreporticon.59ebefae0fa1d37596f7ac2b9fdb01d9.svg",
+    "index.html": "/tally/index.html",
+    "main.5b4c73cf.css.map": "/tally/static/css/main.5b4c73cf.css.map",
+    "main.3674a063.js.map": "/tally/static/js/main.3674a063.js.map",
+    "453.643e1ad9.chunk.js.map": "/tally/static/js/453.643e1ad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b4c73cf.css",
+    "static/js/main.3674a063.js"
+  ]
+}
