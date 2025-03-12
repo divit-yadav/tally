@@ -97,6 +97,37 @@ h4 {
   letter-spacing: -1px;
 }
 
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: -70%;
+  transform: translateX(-50%);
+  background-color: rgb(53, 52, 52);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: regular;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
 .headerbox {
   display: flex;
   justify-content: space-between;
@@ -199,7 +230,7 @@ h4 {
   flex-direction: column;
   height: 100%;
   overflow: hidden;
-  gap: 24px
+  gap: 16px
 ;
 }
 
@@ -254,7 +285,6 @@ input[type='number'] {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  gap: 16px
 }
 
 .list li {
@@ -263,35 +293,55 @@ input[type='number'] {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 0px 8px 0px 0px;
+  padding: 8px 12px 8px 0px;
+  transition: padding-right 0.3s ease; /* Smooth shrinking effect */
 }
 
-.list li.plus {
+.list li::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%; /* Adjust position */
+  height: 40%; /* Set desired height (e.g., 60% of parent) */
+  width: 5px; /* Border width */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.list li.plus::after {
   border-right: 5px solid #2ecc71;
 }
 
-.list li.minus {
+.list li.minus::after {
   border-right: 5px solid #c0392b;
 }
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #b9616b;
   border: 0;
+  border-radius: 50px;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
-  padding: 2px 5px;
+  padding: 5px 10px;
   position: absolute;
+  right: 0px;  /* Position on the right side */
   top: 50%;
-  left: 0;
-  transform: translate(-100%, -50%);
+  transform: translateY(-50%);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: right 0.3s ease-out, opacity 0.2s ease-in-out, transform 0.3s ease-out;
+}
+
+.list li:hover {
+  padding-right: 48px; /* Shrink the container to the left to make space */
 }
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+.list li:hover::after {
+  right: 36px;
 }
 
 .formbox{
@@ -305,3 +355,14 @@ input[type='number'] {
   flex-direction: column; 
   gap: 8px; /* Provides spacing */
 }
+
+input {
+  font-family: "Apercu Pro", sans-serif; /* Font for typed text */
+  font-size: 16px;
+  font-weight: regular;
+  font-style: normal;
+  color: #333;
+}
+
+
+
