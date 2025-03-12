@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tally/static/css/main.bbc6bbb2.css",
-    "main.js": "/tally/static/js/main.f9ccd2cf.js",
+    "main.css": "/tally/static/css/main.5b4c73cf.css",
+    "main.js": "/tally/static/js/main.3674a063.js",
     "static/js/453.643e1ad9.chunk.js": "/tally/static/js/453.643e1ad9.chunk.js",
     "static/media/bg-gradient.png": "/tally/static/media/bg-gradient.50299bfa14242ba6093c.png",
     "static/media/ApercuPro-Italic.woff": "/tally/static/media/ApercuPro-Italic.7f16b3700a3496955ace.woff",
@@ -14,14 +14,13 @@
     "static/media/ApercuPro-Bold.woff2": "/tally/static/media/ApercuPro-Bold.be9eb4ced03b704cd1da.woff2",
     "static/media/progressbar.png": "/tally/static/media/progressbar.4c63d4cf1a0dcd6cbf0e.png",
     "static/media/bugreporticon.svg": "/tally/static/media/bugreporticon.59ebefae0fa1d37596f7ac2b9fdb01d9.svg",
-    "static/media/modetoggleicon.svg": "/tally/static/media/modetoggleicon.dc4ae3bcf0630577e57ad880e75c10a6.svg",
     "index.html": "/tally/index.html",
-    "main.bbc6bbb2.css.map": "/tally/static/css/main.bbc6bbb2.css.map",
-    "main.f9ccd2cf.js.map": "/tally/static/js/main.f9ccd2cf.js.map",
+    "main.5b4c73cf.css.map": "/tally/static/css/main.5b4c73cf.css.map",
+    "main.3674a063.js.map": "/tally/static/js/main.3674a063.js.map",
     "453.643e1ad9.chunk.js.map": "/tally/static/js/453.643e1ad9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc6bbb2.css",
-    "static/js/main.f9ccd2cf.js"
+    "static/css/main.5b4c73cf.css",
+    "static/js/main.3674a063.js"
   ]
 }
